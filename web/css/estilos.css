@@ -1,0 +1,23 @@
+#login{
+	margin: 10% 0% 0% 35%;
+	width: 30%;
+	height: 30%;
+	background-color: rgba(250,250,250, .7);
+	float: right;
+	box-shadow: 0 0 10px #360;
+        border-radius:0.5em;
+}
+#loginletras{
+    font-size: 200%;
+}
+#salir{
+    font-size: 130%;
+    color: #00FFFF;
+}
+.sombra{
+	text-shadow:4px 4px 4px #333;
+	-moz-text-stroke: 2px #063063;
+	-moz-text-fill-color:#1386CC;
+	-webkit-text-stroke:2px #063063;
+	-webkit-text-fill-color:#1386CC;
+}
