@@ -35,6 +35,9 @@
                 <li>
                     <a href="ControllerVentas">Administrar ventas</a>
                 </li>
+                <li>
+                    <a href="ControllerExpirado">Administracion de expirados</a>
+                </li>
             </ul>
         </nav>
         <div>

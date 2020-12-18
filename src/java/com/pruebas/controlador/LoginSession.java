@@ -49,7 +49,13 @@ public class LoginSession extends HttpServlet {
                         ses.setAttribute("login", "OK");
                         ses.setAttribute("usuario", usuario);
                         //DESEAMOS INGRESAR AL PANEL
-                        response.sendRedirect("panel.jsp");
+                        if(lista.get(i).getId_cargo() == 1)
+                        {
+                            response.sendRedirect("panel.jsp");
+                        }
+                        else{
+                            response.sendRedirect("panelusuario.jsp");
+                        }
                     } else {
                         i++;
                        // System.out.println("----" + i);
